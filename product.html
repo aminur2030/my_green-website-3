@@ -4,9 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta name="description" content="This is a Rahaman Ecommerce Projrct">
+  <script src="https://kit.fontawesome.com/cf6a72070d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>My Green Ecommerce Project</title>
 </head>
-<body> 
-  <h1> Product</h1>
+<body>
+  <i class="fas fa-bars fa-2x" id="menu_icon"></i>
+ <nav id="menu" class="hidden">
+  <ul class="nav_upper flex_space-around">
+    <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
+    <li class="nav_list"><a href="register.html" class="nav_link">Register</a></li>
+    <li class="nav_list"><a href="login.html" class="nav_link">Login</a></li>
+    <li class="nav_list"><a href="index.html" class="nav_link">Logout</a></li>
+    <li class="nav_list"><a href="contact.html" class="nav_link">Cotact</a></li>  
+   
+    <li class="nav_list"><a href="profile.html" class="nav_link"><img class="profile_icon" src="images/amin.jpg" alt="profile icon"></a></li>
+  </ul>
+  <ul class="nav_lower flex_space-around">
+    <li class="nav_list"><a href="/index.html" class="nav_link nav_brand">Green Project</a></li>
+    <li class="nav_list"><a href="/cart.html" class="nav_link">
+      <span><i class="fas fa-shopping-cart"></i></span> Cart 2 Products-$250</a></li>
+  </ul>
+ </nav>
+ <header>
+  
+ </header>
+ <main class="flex_center">
+ <div class="main_content">
+  <section class="product_details flex_center">
+    <div class="product_details_left flex_center" >
+      <img src="images/bag2.jpg" alt="bag">
+    </div>
+    <div class="product_details_right flex_center" >
+      <h3 class="product_name">HP M-5 Bag01</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product_description">       
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum commodi, animi molestias odit necessitatibus odio temporibus rerum recusandae, iste inventore ut alias, aliquid hic maxime facere enim blanditiis libero. Quae in dolorum quisquam maiores saepe enim sapiente explicabo distinctio! Officiis necessitatibus sed et ipsam velit, veritatis, cumque harum nam rerum ratione optio quam dolorum est commodi nihil, aperiam 
+      </p>
+      <h4 class="product_price">$130.99</h4>
+      <p class="product_rating"> Rating:4.5/5</p>
+      <button class="btn product_button"> Add to Cart</button>
+    </div>
+  </section>
+ </div>
+ </main>
+ <footer class="footer flex_space-around">
+  <div class="flex_space-around">
+    <label for="suscribe">Suscribe to News Letters</label>
+    <input type="text" name="suscribe" id="suscribe" class="footer_input" placeholder="Your Email Address">
+    <button class="btn btn_subscribe">Subscribe</button>
+  </div>
+  <div>
+    <p>&copy; Copyright 2024 Green Project, All rights reserved.</p>
+  </div>
+
+ </footer>
+ <script src="./script/index.js"></script>
 </body>
 </html>
