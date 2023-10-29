@@ -10,7 +10,8 @@
   <title>My Green Ecommerce Project</title>
 </head>
 <body>
-  <i class="fas fa-bars fa-2x" id="menu_icon"></i>
+  <header>
+    <i class="fas fa-bars fa-2x" id="menu_icon"></i>
  <nav id="menu" class="hidden">
   <ul class="nav_upper flex_space-around">
     <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
@@ -27,11 +28,64 @@
       <span><i class="fas fa-shopping-cart"></i></span> Cart 2 Products-$250</a></li>
   </ul>
  </nav>
- <header>
-  <h1>Aminur</h1>
- </header>
+  </header>
  <main>
-  <h2>Rahaman</h2>
+  <div class="cart flex_center">
+    <div class="cart_items">
+      <div class="cart_item_heading card">
+        <h2>Shopping Cart[2 items]</h2>
+        <div class="cart_items_actions">
+          <label for="select">
+            <input type="checkbox" name="select" id="select">
+            Select all Items
+          </label>
+          <button class="btn"><i class="fas fa-trash-alt"></i></button>
+          <button class="btn">Shop More</button>
+        </div>
+      </div>
+      <div class="cart_item card flex_space-around" >
+        <input type="checkbox" name="" id="">
+        <img class="cart_item_img" src="images/torchlight.jpg" alt="tourchlight">
+        <div class="cart_item_description">
+          <h3 class="product_name">HLG T-4 Torch Light</h3>
+          <h4 class="product_price">$20.99</h4>
+          <p class="cart_item_shipping">Free Shipping</p>
+        </div>
+        <div class="cart_item_actions">
+          <button class="btn"><i class="fas fa-trash-alt"></i></button>
+          <div>
+            <div class="btn"><i class="fas fa-add"></i></div>
+            <span>3</span>
+            <div class="btn"><i class="fas fa-minus"></i></div>            
+
+          </div>
+        </div>
+      </div>
+      <div class="cart_item card flex_space-around" >
+        <input type="checkbox" name="" id="">
+        <img class="cart_item_img" src="images/headphone.jpg" alt="headphone">
+        <div class="cart_item_description">
+          <h3 class="product_name">HLG T-4 Head Phone</h3>
+          <h4 class="product_price">$18.99</h4>
+          <p class="cart_item_shipping"> Shipping Cost $1.50</p>
+        </div>
+        <div class="cart_item_actions">
+          <button class="btn"><i class="fas fa-trash-alt"></i></button>
+          <div>
+            <div class="btn"><i class="fas fa-add"></i></div>
+            <span>2</span>
+            <div class="btn"><i class="fas fa-minus"></i></div>            
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart_payments">
+
+    </div>
+  </div>
+
+
  </main>
  <footer class="footer flex_space-around">
   <div class="flex_space-around">
